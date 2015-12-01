@@ -7,11 +7,47 @@
   </head>
   <body>
   <div class="container-fluid">
+
+	<div class="row">
+	<h3 class="text-center text-info">测试用例管理系统</h3>
+		<div class="col-md-12"><h4 class="text-left text-warning">输入测试用例名或标签搜索测试用例</h3></div>
+		<div class="col-md-12">
+			<form class="form-inline" role="form">
+
+				<div class="form-group">
+					 <label  class="sr-only" for="inputEmail3">测试用例名</label>
+					<input type="text" class="form-control " id="inputEmail3" placeholder="用例名"/>
+				</div>
+
+				<div class="form-group">
+					<label for="inputPassword3" class="sr-only">Tag</label>
+					<input type="text" class="form-control" id="inputPassword3" placeholder="Tag"/>
+				</div>
+
+				<label class="checkbox-inline">
+					<input type="checkbox" id="inlineCheckbox1" value="priority1">优先级1
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" id="inlineCheckbox2" value="priority2">优先级2
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" id="inlineCheckbox3" value="priority3">优先级3
+				</label>
+
+				
+				<div class="form-group">
+					<button type="submit" class="btn btn-default">搜索</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+
 	<div class="row">
 		<div class="col-md-12">
-			<h3 class="text-center text-info">
-				测试用例管理系统
-			</h3>
 			<table class="table table-striped table-hover table-condensed">
 				<thead>
 					<tr>
@@ -37,31 +73,7 @@
 	</div>
 </div>
 
-	<div class="row">
-		<div class="col-md-12"><h4 class="text-left text-warning">输入测试用例名或标签搜索测试用例</h3></div>
-		<div class="col-md-4">
-			<form class="form-horizontal" role="form">
 
-				<div class="form-group">
-					 <label for="inputEmail3" class="col-sm-3 control-label">测试用例名</label>
-					<div class="col-sm-9"><input type="text" class="form-control" id="inputEmail3" /></div>
-				</div>
-
-				<div class="form-group">
-					<label for="inputPassword3" class="col-sm-3 control-label">Tag</label>
-					<div class="col-sm-9"><input type="text" class="form-control" id="inputPassword3" /></div>
-				</div>
-				
-				<div class="form-group">
-					<div class="col-sm-offset-3 col-sm-9"><button type="submit" class="btn btn-default">搜索</button></div>
-				</div>
-			</form>
-		</div>
-		<div class="col-md-4">
-		</div>
-		<div class="col-md-4">
-		</div>
-	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
