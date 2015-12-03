@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script  src="./js/jquery.js"  type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//alert("Test My Jquery Lib!");
+				$("#cr").click(function(){
+					if($("#cr").is(":checked")){
+						alert("checkbox checked!");
+					}else{
+						alert("checkbox not checked!");
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="checkbox" checked="false" id="cr"><label for="cr">นดัก</label>
+	</body>
+</html>
